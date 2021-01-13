@@ -1,0 +1,15 @@
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<div id="text"></div>
+<script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
+return response.json()
+
+}).then(function (obj) {
+
+console.log(obj.username)
+
+document.getElementById("text").innerHTML = obj.username+"#"+obj.discriminator+" "+obj.server_count;
+
+}).catch(err =>console.log(err))
+
+
+</script>
