@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <meta charset="utf-8" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta content="width=device-width,initial-scale=1" name="viewport" />
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  
+  <script src="https://teamjoelee.github.io/discordbotlist/widget.js"></script>
     <title>Jet Brawley</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet"> 
+<div id="favicon"></div>
   <body>
      
   <div class="content"> 
@@ -16,30 +18,47 @@
 <h3>An Awesome Bot That Does Many Things</h3>
     <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot&permissions=8" style="font-size:13px"><h3>Invite Now (Admin)</h3> <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot&permissions=133688385" style="font-size:13px"><h3>Recommended</h3></a>
 </a>
- <h3>Features :</h3>
+ <h3>🌌 Features 🌌 :</h3>
 <h4 style="font-size:14px;color:green;">Get Supercell Game Stats, Get Stock Quote, Moderation, Fun, Games And More</h4>
     <h3>🔗 Links 🔗 :</h3>
- <a href="#" style="font-size:13px; color: yellow;"><h3><a href="https://github.com/brawlie" style="color:red">Github</a><a href="https://discord.gg/Q9eMTRM3PH" style="color:yellow"> Discord</a><a href="https://github.com/brawlie/bot/issue/new" style="color:pink"> Issue</a><a href="https://github.com/brawlie/bot/issue/new" style="color:purple"> Suggest</a></h3></a>
+ <a href="#" style="font-size:13px; color: yellow;"><h3><a href="https://github.com/brawlie" target="_blank" style="color:red">Github</a><a href="https://discord.gg/Q9eMTRM3PH" style="color:yellow" target="_blank" > Discord</a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:pink"> Issue </a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:purple"> Suggest </a><a href="/commands" style="color:green" >Commands </a><div style="height:10px"></div><div class="popup" onclick="myFunction2()" style="color:brown"> Top.gg
+  <span class="popuptext" id="myPopup2"></span>
+</div><a href="/about" target="_blank"   style="color:green"> About </a><div class="popup" onclick="myFunction()" style="color:grey"> Widget  
+     <span class="popuptext" id="myPopup"></span>
+</div></h3></h3></a>
     <div style="height:25px">
-      
+      <script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+  document.getElementById("myPopup").innerHTML = `<dbl-widget bot-id="bot-jet-brawley" centered></dbl-widget>`
+}
+</script>
+      <script>
+function myFunction2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+  document.getElementById("myPopup2").innerHTML = `<img src="https://top.gg/api/widget/792311725181239307.svg">`
+}
+</script>
+<div style="height:15px"></div>
+      <h2><i class='bx bx-stats'></i> Statistic <i class='bx bx-stats'></i></h2>
+        <h3 id="guild" style="color:red"><h3><h3 style="color:pink"> <i class='bx bx-stats'></i> User : 237<h3 id="user" style="color:green"></h3></h3><h3 style="color:green"><i class='bx bx-stats'></i> Voice : 15<h3 id="voice"></h3></h3>    </h3>
+         <h3 id="uptime" style="color:yellow; height:5px"><h3><h3 style="color:yellow"> <i class='bx bx-stats'></i> Uptime : 98%<h3 id="user" style="color:green"></h3></h3><h3 style="color:blue"><i class='bx bx-stats'></i> Status : Online 🟢<h3 id="voice"></h3></h3>    </h3>
     </div>
-  
-    <div id="footer">
-      
-        <h3 id="guild"><h3><h3>User : ${user}<h3 id="user"></h3></h3><h3>Voice : ${voice}<h3 id="voice"></h3></h3>    </h3>
-        
+  <div style="height:35px"></div>
 
 
-    </div>
-    
   </div>
 
   </body>
+  
    <h3>
   <div class="container">
+    
   <center>
 
-<div class="card" style="left:280px; bottom:370px">
+<div class="card" style="left:280px; bottom:290px">
     <div class="adjust">
       <div id="avatar">
        </div>
@@ -47,9 +66,41 @@
         
     </div>
 </div>    </center>
+  <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+           
+          </div>
 
+        
+
+       
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="https://github.com/joeleeofficial">Joe Lee</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://discord.com/invite/Q9eMTRM3PH"><i class='bx bxl-discord bx-burst' ></i></a></li>
+              <li><a class="twitter" href="https://github.com/brawlie"><i class='bx bxl-github bx-burst' ></i></a></li>
+              <li><a class="dribbble" href="./credit"><i class='bx bx-credit-card-front bx-burst' ></i></a></li>
+              <li><a class="linkedin" href="./javascript"><i class='bx bxl-javascript bx-burst' ></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+ </footer>
 </h3>
-  <footer style="overflow: hidden;">  </footer>
+ 
+ <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 <script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
 return response.json()
 
@@ -57,10 +108,10 @@ return response.json()
 
 console.log(obj.username)
 
-document.getElementById("guild").innerHTML = "Guild : " + obj.server_count;
+document.getElementById("guild").innerHTML = "<i class='bx bx-stats'></i> Guild : " + obj.server_count;
 document.getElementById("username").innerHTML = obj.username+"#"+obj.discriminator;
 document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
-
+document.getElementById("favicon").innerHTML = `<link rel="icon" href="`+obj.avatar+`" type="image/gif" sizes="16x16">`;
 
 }).catch(err =>console.log(err))
 
@@ -311,5 +362,218 @@ document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`"alt="pro
     float: left;
 }
 </style> 
+<style>
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+<style>
+  .site-footer
+{
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}</style>
 </html>
 
