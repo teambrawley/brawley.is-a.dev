@@ -1,4 +1,33 @@
-<div id="text"></div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Jst Brawley</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet"> 
+  <body>
+    
+  <div class="content"> 
+    <h1>Financejs Proxy Server</h1>
+    <h4>How To Use ?</h4>
+<h3>Use it to quickly load any stock quote data from finance.js using a URL like :</h3>
+    <a href="https://finance.js.org/:stock_quote" style="font-size:13px"><h3>https://finance.js.org/:stock_quote</h3></a>
+   <h3>To Load Net Share Purchase Activities :</h3>
+ <a href="https://finance.js.org/nspa/:stock_quote" style="font-size:13px"><h3>https://finance.js.org/nspa/:stock_quote</h3></a>
+ <h3>To Load Financial Data :</h3>
+ <a href="https://finance.js.org/financial/:stock_quote" style="font-size:13px"><h3>https://finance.js.org/financial/:stock_quote</h3></a>
+    <h3>To Load Company Data :</h3>
+ <a href="https://finance.js.org/company/:stock_quote" style="font-size:13px"><h3>https://finance.js.org/company/:stock_quote</h3></a>
+    <div style="height:25px">
+      
+    </div>
+  
+    <div id="footer">
+      
+        <h3 id="guild"><h3><h3>User : ${user}<h3 id="user"></h3></h3><h3>Voice : ${voice}<h3 id="voice"></h3></h3>    </h3>
 <script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
 return response.json()
 
@@ -6,9 +35,191 @@ return response.json()
 
 console.log(obj.username)
 
-document.getElementById("text").innerHTML = obj.username+"#"+obj.discriminator+" "+obj.server_count;
+document.getElementById("guild").innerHTML = "Guild :" + obj.server_count;
+document.getElementById("name").innerHTML = obj.username+"#"+obj.discriminator;
+document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`">`;
 
 }).catch(err =>console.log(err))
 
 
 </script>
+
+    </div>
+  </div>
+  </body>
+  <footer style="overflow: hidden;"></footer>
+  <style>
+    mark{
+ background-color:yellow;
+}
+    * {
+      box-sizing: border-box;
+    }
+    a,
+    abbr,
+    acronym,
+    address,
+    applet,
+    article,
+    aside,
+    audio,
+    b,
+    big,
+    blockquote,
+    body,
+    canvas,
+    caption,
+    center,
+    cite,
+    code,
+    dd,
+    del,
+    details,
+    dfn,
+    div,
+    dl,
+    dt,
+    em,
+    embed,
+    fieldset,
+    figcaption,
+    figure,
+    footer,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    hgroup,
+    html,
+    i,
+    iframe,
+    img,
+    ins,
+    kbd,
+    label,
+    legend,
+    li,
+    mark,
+    menu,
+    nav,
+    object,
+    ol,
+    output,
+    p,
+    pre,
+    q,
+    ruby,
+    s,
+    samp,
+    section,
+    small,
+    span,
+    strike,
+    strong,
+    sub,
+    summary,
+    sup,
+    table,
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    time,
+    tr,
+    tt,
+    u,
+    ul,
+    var,
+    video {
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+    }
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol,
+    ul {
+      list-style: none;
+    }
+    blockquote,
+    q {
+      quotes: none;
+    }
+    blockquote:after,
+    blockquote:before,
+    q:after,
+    q:before {
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    body,
+    html {
+      background: #0d0e1a;
+      color: #fff;
+      font-family: 'Hachi Maru Pop', cursive;
+      font-size: 16px;
+    
+    }
+    .content {
+      margin: 5%;
+    }
+    .content h1 {
+      font-size: 3em;
+      font-weight: 400;
+      margin: 25px 0;
+    }
+    .content h2 {
+      font-size: 2em;
+    }
+    .content h2,
+    .content h3 {
+      font-weight: 400;
+      margin: 15px 0 5px;
+    }
+    .content h3 {
+      font-size: 1.5em;
+    }
+    .content h4 {
+      font-size: 1.6em;
+      font-weight: 400;
+      margin: 25px 0 5px;
+    }
+    .content a,
+    .content a:visited {
+      color: #34d;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .content a:focus,
+    .content a:hover {
+      color: #58f;
+    }
+    
+  </style>
+    
+</html>
