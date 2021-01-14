@@ -2,12 +2,16 @@
 <html lang="en">
     <meta charset="utf-8" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  
     <title>Jet Brawley</title>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet"> 
   <body>
-    
+     
   <div class="content"> 
+    
     <h1>Jet Brawley</h1>
 <h3>An Awesome Bot That Does Many Things</h3>
     <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot&permissions=8" style="font-size:13px"><h3>Invite Now (Admin)</h3> <a href="https://discord.com/oauth2/authorize?client_id=792311725181239307&scope=bot&permissions=133688385" style="font-size:13px"><h3>Recommended</h3></a>
@@ -23,6 +27,29 @@
     <div id="footer">
       
         <h3 id="guild"><h3><h3>User : ${user}<h3 id="user"></h3></h3><h3>Voice : ${voice}<h3 id="voice"></h3></h3>    </h3>
+        
+
+
+    </div>
+    
+  </div>
+
+  </body>
+   <h3>
+  <div class="container">
+  <center>
+
+<div class="card" style="left:280px; bottom:370px">
+    <div class="adjust">
+      <div id="avatar">
+       </div>
+        <h1 class="text-white"><div id="username"></div></h1>
+        
+    </div>
+</div>    </center>
+
+</h3>
+  <footer style="overflow: hidden;">  </footer>
 <script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
 return response.json()
 
@@ -30,19 +57,15 @@ return response.json()
 
 console.log(obj.username)
 
-document.getElementById("guild").innerHTML = "Guild :" + obj.server_count;
-document.getElementById("name").innerHTML = obj.username+"#"+obj.discriminator;
-document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`">`;
+document.getElementById("guild").innerHTML = "Guild : " + obj.server_count;
+document.getElementById("username").innerHTML = obj.username+"#"+obj.discriminator;
+document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
+
 
 }).catch(err =>console.log(err))
 
 
 </script>
-
-    </div>
-  </div>
-  </body>
-  <footer style="overflow: hidden;"></footer>
   <style>
     mark{
  background-color:yellow;
@@ -216,6 +239,77 @@ document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`">`;
     }
     
   </style>
-    
+   <style>
+      .card {
+    background-color: rgb(36,36,33);
+    width: 250px;
+    border-radius: 5px;
+}
+
+.adjust {
+    padding: 16px;
+}
+
+.text-white {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.second {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #2f3136;
+    width: 250;
+}
+
+.third {
+    padding: 9px;
+    padding-right: 0px;
+    background-color: #7289da;
+    width: 250;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.text-social {
+    color: white;
+    text-align: left;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1.3px;
+}
+
+.social {
+    float: left;
+    margin: 14px;
+}
+
+.youtube {
+    margin-left: 5px;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    margin: 0rem;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    float: left;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+.text-server {
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+}
+</style> 
 </html>
 
