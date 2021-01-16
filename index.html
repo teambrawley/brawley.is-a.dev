@@ -110,7 +110,7 @@ console.log(obj.username)
 
 document.getElementById("guild").innerHTML = "<i class='bx bx-stats'></i> Guild : " + obj.server_count;
 document.getElementById("username").innerHTML = obj.username+"#"+obj.discriminator;
-document.getElementById("avatar").innerHTML = `<img src="`+obj.avatar+`"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
+document.getElementById("avatar").innerHTML = `<img src="https://cdn.discordapp.com/avatars/`+obj.id+"/"+obj.avatar+`.png"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
 document.getElementById("favicon").innerHTML = `<link rel="icon" href="`+obj.avatar+`" type="image/gif" sizes="16x16">`;
 
 }).catch(err =>console.log(err))
