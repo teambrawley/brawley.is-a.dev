@@ -121,13 +121,12 @@ document.getElementById("favicon").innerHTML = `<link rel="icon" href="`+obj.ava
 </script>
        
        <script>
-          var name = getCookie("name");
-           if(name == "" || name == undefined){
-             name == ""
-           }else {
-           console.log(name)
-           }
-           
+function checkCookie() {
+  var name = getCookie("name");
+  if (name != "") {
+    alert("Welcome again " + name);
+  }else {}
+}
        </script>
   <style>
     mark{
