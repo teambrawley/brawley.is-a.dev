@@ -27,7 +27,7 @@
   <span class="popuptext" id="myPopup2"></span>
 </div><a href="/about" target="_blank"   style="color:green"> About </a><div class="popup" onclick="myFunction()" style="color:grey"> Widget  
      <span class="popuptext" id="myPopup"></span>
-</div></h3></h3></a>
+     </div><div id="login"></div></h3></h3></a>
     <div style="height:25px">
       <script>
 function myFunction() {
@@ -139,8 +139,10 @@ function checkCookie() {
 }
   var name = getCookie("name");
   if (name != "") {
-    alert("Welcome again " + name);
-  }else {}
+       document.getElementById("login").innerHTML = `<a href="./login">${name}</a>`
+  }else {
+   document.getElementById("login").innerHTML = `<a href="./login" style="color:orange">Login</a>`
+  }
 }
            
            checkCookie();
