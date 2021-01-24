@@ -23,9 +23,9 @@
  <h3>🌌 Features 🌌 :</h3>
 <h4 style="font-size:14px;color:green;">Get Supercell Game Stats, Get Stock Quote, Moderation, Fun, Games And More</h4>
     <h3>🔗 Links 🔗 :</h3>
- <a href="#" style="font-size:13px; color: yellow;"><h3><a href="https://github.com/brawlie" target="_blank" style="color:red">Github</a><a href="https://discord.gg/Q9eMTRM3PH" style="color:yellow" target="_blank" > Discord</a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:pink"> Issue </a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:purple"> Suggest </a><a href="/commands" style="color:green" >Commands </a><div style="height:10px"></div><div class="popup" onclick="myFunction2()" style="color:brown"> Top.gg
+ <a href="#" style="font-size:13px; color: yellow;"><h3><a href="https://github.com/brawlie" target="_blank" style="color:red">Github</a><a href="https://discord.gg/Q9eMTRM3PH" style="color:yellow" target="_blank" > Discord</a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:pink"> Issue </a><a href="https://github.com/brawlie/bot/issues/new" target="_blank"  style="color:purple"> Suggest </a><a href="/commands" style="color:green" >Commands </a><div style="height:10px"></div><div class="popup" onclick="myFunction2()" style="color:brown"> Top.gg 
   <span class="popuptext" id="myPopup2"></span>
-</div><span id="login"></span><a href="/about" target="_blank"   style="color:green"> About </a><div class="popup" onclick="myFunction()" style="color:grey"> Widget  
+</div> <span id="login"> </span><a href="/about" target="_blank"   style="color:green"> About </a><div class="popup" onclick="myFunction()" style="color:grey"> Widget  
      <span class="popuptext" id="myPopup"></span>
      </div></h3></h3></a>
     <div style="height:25px">
@@ -139,7 +139,7 @@ function checkCookie() {
 }
   var name = getCookie("name");
   if (name != "") {
-       document.getElementById("login").innerHTML = `<div class="popup" style="color:orange" onclick="logout()"> ${name} <span class="popuptext" id="logoutbtn"><a style="background-color:white; border-radius: 10px;color:purple; font-size: 25px" href="/logout">Logout</a></span></div>`
+       document.getElementById("login").innerHTML = `<div class="popup" style="color:orange" onclick="logout()"> ${name}<span class="popuptext" id="logoutbtn"><a style="background-color:white; border-radius: 10px;color:purple; font-size: 25px" href="/logout">Logout</a></span></div>`
   }else {
    document.getElementById("login").innerHTML = `<a href="./login" style="color:orange"> Login</a>`
   }
