@@ -149,7 +149,9 @@ document.getElementById("commands").innerHTML = `
         <div class="panel-body" style="color:black">-profile {Tag} [ Get A Player's Profile Stats ]</div>
        <div class="panel-body" style="color:black">-club {Tag} [ Get A Club Stats]
 </div>
- <div class="panel-body" style="color:black">-battle {Tag} [ Get A Player's Battle Log ]
+ <div class="panel-body" style="color:black">-clubs [ Get Global Top 5 Club ]
+</div>
+ <div class="panel-body" style="color:black">-clubs {Country_Code} [ Get A Country's Top 5 Clubs ]
 </div>
  <div class="panel-body" style="color:black">-battle2 {Tag} [ Get A Player's Second Battle Log ]
 </div>
