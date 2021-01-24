@@ -22,7 +22,7 @@ function getCookie(cname) {
   }
   return "";
 }  
-const value = getParameterByName('value') || getCookie("name");
+var value = getParameterByName('value') || getCookie("name");
   
 if(value != ""){
  value = ""
