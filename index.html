@@ -139,7 +139,7 @@ function checkCookie() {
 }
   var name = getCookie("name");
   if (name != "") {
-       document.getElementById("login").innerHTML = `<a id="logoutbtn"> ${name}  <span class="popuptext" id="logout"><a href="/logout">Logout</a></span></a>`
+       document.getElementById("login").innerHTML = `<div class="popup" onclick="logout()">${name} <span class="popuptext" id="logoutbtn"><a href="/logout">Logout</a></span></div>`
   }else {
    document.getElementById("login").innerHTML = `<a href="./login" style="color:orange"> Login</a>`
   }
@@ -147,11 +147,9 @@ function checkCookie() {
            
            checkCookie();
        </script>
-  <script>
-  document.getElementById("logoutbtn").onclick = function() {logout()};
-document.getElementById("logout").classList.toggle("hide")
+<script>
 function logout() {
-  var popup = document.getElementById("logout");
+  var popup = document.getElementById("logoutbtn");
   popup.classList.toggle("show");
 }
 </script>
