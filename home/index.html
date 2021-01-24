@@ -22,13 +22,8 @@ function getCookie(cname) {
   }
   return "";
 }  
-var value = getParameterByName('value') || getCookie("name");
+var value = getParameterByName('value');
   
-if(value != ""){
- value = ""
-}else {
-  value = `${value}`
-}  
 
 function cookie(value){
 document.cookie == `name=${value}`
