@@ -122,11 +122,28 @@ document.getElementById("favicon").innerHTML = `<link rel="icon" href="`+obj.ava
        
        <script>
 function checkCookie() {
+    function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
   var name = getCookie("name");
   if (name != "") {
     alert("Welcome again " + name);
   }else {}
 }
+           
+           checkCookie();
        </script>
   <style>
     mark{
