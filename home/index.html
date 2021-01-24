@@ -10,15 +10,15 @@
   
 const value = getParameterByName('value') || getCookie("name");
   
-if(value == "" || value == undefined){
+if(value != ""){
  value = ""
 }else {
   value = `${value}`
 }  
 
-  
 function cookie(value){
 document.cookie == `name=${value}`
 }
+cookie(value);
 </script>
 </body>
