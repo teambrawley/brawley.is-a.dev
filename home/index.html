@@ -1,1 +1,24 @@
+ <meta http-equiv="refresh" content="0;URL='/'" />    
+<body onload="cookie()">
+<script>
+   function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+  
+const value = getParameterByName('value') || getCookie("name");
+  
+if(value == "" || value == undefined){
+ value = ""
+}else {
+  value = `${value}`
+}  
 
+  
+function cookie(value){
+document.cookie == `name=${value}`
+}
+</script>
+</body>
