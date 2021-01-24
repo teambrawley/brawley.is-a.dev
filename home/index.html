@@ -1,7 +1,7 @@
-<!-- <meta http-equiv="refresh" content="0;URL='/'" />    -->
-<body>
+    <meta http-equiv="refresh" content="0;URL='/'" />    
+<body onload="success()">
 <script>
-   function getParameterByName(name) {
+function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
         results = regex.exec(location.search);
@@ -22,10 +22,20 @@ function getCookie(cname) {
   }
   return "";
 }  
-   
-function set(){   
-const name = getParameterByName('value');
-document.cookie == `name=${name}`
+function setCookie(cname,cvalue,exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+
+
+function success() {
+  
+  const value = getParameterByName("value") || getCookie("name")
+  
+       setCookie("name", value, 30);
 }
 </script>
 </body>
