@@ -301,6 +301,8 @@ document.getElementById("commands").innerHTML = `
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body" style="color:black">-rank [ Check Your Rank/Level ] </div>
        <div class="panel-body" style="color:black">-top  [ Leaderboard ]</div>
+       <div class="panel-body" style="color:black">-daily  [ Daily Rewards ]</div>
+
  <div class="panel-body" style="color:black">
 <div class="x">Information Hover To Read
   <span class="y">You Can Earn Xp By Using Brawley's Command. Level Up After Reaching Certain Amount Of Xp.</span>
