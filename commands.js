@@ -153,6 +153,8 @@ document.getElementById("commands").innerHTML = `
 </div>
  <div class="panel-body" style="color:black">-clubs {Country_Code} [ Get A Country's Top 5 Clubs ]
 </div>
+ <div class="panel-body" style="color:black">-players {Country_Code} [ Get A Country's Top 5 Players ]
+</div>
  <div class="panel-body" style="color:black">-battle2 {Tag} [ Get A Player's Second Battle Log ]
 </div>
  <div class="panel-body" style="color:black">-battle3 {Tag} [ Get A Player's Third Battle Log ]
