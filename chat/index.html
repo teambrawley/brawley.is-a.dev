@@ -1,1 +1,20 @@
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" defer></script>
+  <link rel="stylesheet" href="https://discord-chat.theclyde.repl.co/discord.css" defer>
 
+  <link rel="stylesheet" href="https://discord-chat.theclyde.repl.co/styles.css">
+<link rel="stylesheet" href="https://discord-chat.theclyde.repl.co/message.css">
+<body onload="docs()">
+<div id="docs"></div>
+<script>
+     function docs() {
+     $.get('https://discord-chat.theclyde.repl.co/', function(data) {
+          $('#div').html(data);
+document.getElementById("docs").innerHTML = data
+
+        });
+     }
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://discord-chat.theclyde.repl.co/discord-html.js" defer></script>
+  <script src="https://discord-chat.theclyde.repl.co/chat.js" type="module" defer></script>
+</body>
