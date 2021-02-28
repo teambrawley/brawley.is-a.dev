@@ -163,6 +163,12 @@ document.getElementById("commands").innerHTML = `
 </div>
  <div class="panel-body" style="color:black">-battle5 {Tag} [ Get A Player's Fifth Battle Log ]
 </div>
+ <div class="panel-body" style="color:black">-save {Tag} [ Save A BrawlStars Tag ]
+</div>
+ <div class="panel-body" style="color:black">-delete [ Delete An Existing Tag ]
+</div>
+ <div class="panel-body" style="color:black">-safe [ Show An Existing Tag ]
+</div>
       </div>
     </div>
   </div>
@@ -182,7 +188,13 @@ document.getElementById("commands").innerHTML = `
         <div class="panel-body" style="color:black">-profile.coc {Tag} [ Get A Player's Profile Stats ]</div>
        <div class="panel-body" style="color:black">-coc {Tag} [ Get A Clan Stats ]
 </div>
- 
+
+  <div class="panel-body" style="color:black">-save.coc {Tag} [ Save A Profile ]
+</div>
+ <div class="panel-body" style="color:black">-delete.coc [ Delete An Existing Tag ]
+</div>
+ <div class="panel-body" style="color:black">-safe.coc [ Show An Existing Tag ]
+</div>
       </div>
     </div>
   </div>
@@ -201,6 +213,12 @@ document.getElementById("commands").innerHTML = `
       <div id="collapse10" class="panel-collapse collapse">
         <div class="panel-body" style="color:black">-profile.cr {Tag} [ Get A Player's Profile Stats ]</div>
        <div class="panel-body" style="color:black">-clan {Tag} [ Get A Clan Stats ]
+</div>
+ <div class="panel-body" style="color:black">-save.cr {Tag} [ Save A ClashRoyale Profile ]
+</div>
+ <div class="panel-body" style="color:black">-delete.cr [ Delete An Existing Tag ]
+</div>
+ <div class="panel-body" style="color:black">-safe.cr [ Show An Existing Tag ]
 </div>
  
       </div>
@@ -231,6 +249,8 @@ document.getElementById("commands").innerHTML = `
  <div class="panel-body" style="color:black">-support [ Support Server ]
 </div>
  <div class="panel-body" style="color:black">-vote [ Vote Our Bot ]
+</div>
+ <div class="panel-body" style="color:black">-news {number} [ Brawley News Network ( BNN ) ]
 </div>
       </div>
     </div>
