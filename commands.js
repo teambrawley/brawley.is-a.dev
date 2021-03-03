@@ -278,7 +278,8 @@ document.getElementById("commands").innerHTML = `
 </div>
  <div class="panel-body" style="color:black">-roll [ Roll A Dice ]
 </div>
-
+ <div class="panel-body" style="color:black">-jumble [ Jumble A Random Word ]
+</div>
       </div>
     </div>
   </div>
