@@ -169,6 +169,8 @@ document.getElementById("commands").innerHTML = `
 </div>
  <div class="panel-body" style="color:black">-safe [ Show An Existing Tag ]
 </div>
+ <div class="panel-body" style="color:black">-brawlers [ Show A Player's In-Game Brawlers ]
+</div>
       </div>
     </div>
   </div>
