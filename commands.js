@@ -139,12 +139,15 @@ document.getElementById("commands").innerHTML = `
   <span class="y">-play [Query]</span>
 </div> [ Play A Song From YouTube ] 
 </div>
-       <div class="panel-body" style="color:black">-stop [ Stop The Player ]
-</div>
+
 <div class="x">-lyrics
   <span class="y">-lyrics [Query]</span>
-</div> [ Search For Lyrics ] 
+</div> [ Search A Lyrics ] 
 </div>
+       <div class="panel-body" style="color:black">-stop [ Stop The Player ]
+</div>
+
+
  <div class="panel-body" style="color:black">
 <div class="x">Information Hover To Read
   <span class="y">Join Voice Channel Before Running Any Music Command</span>
