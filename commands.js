@@ -68,7 +68,7 @@ document.getElementById("commands").innerHTML = `
 </div>  [ Get A User Profile Stats ]
 </div>
 
-div class="panel-body" style="color:black">
+<div class="panel-body" style="color:black">
 <div class="x">-stats
   <span class="y">-s.stats</span>
 </div> [ Get Current Server Info ]
