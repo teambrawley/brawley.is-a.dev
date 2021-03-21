@@ -140,6 +140,7 @@ document.getElementById("commands").innerHTML = `
 </div> [ Play A Song From YouTube ] 
 </div>
 
+ <div class="panel-body" style="color:black">
 <div class="x">-lyrics
   <span class="y">-lyrics [Query]</span>
 </div> [ Search For Lyrics ] 
