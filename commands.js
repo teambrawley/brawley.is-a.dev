@@ -77,7 +77,7 @@ document.getElementById("commands").innerHTML = `
 <div class="panel-body" style="color:black">
 <div class="x">-server 
   <span class="y">-server [Server ID]</span>
-</div>Server Widget Overview
+</div> [ Server Widget Overview ]
 </div>
 
 <div class="panel-body" style="color:black">
