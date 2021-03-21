@@ -75,6 +75,11 @@ document.getElementById("commands").innerHTML = `
 </div>
 
 <div class="panel-body" style="color:black">
+<div class="x">-server
+  <span class="y">-server [Server ID]</span>
+</div>  Server Widget Overview
+
+<div class="panel-body" style="color:black">
 <div class="x">-kick
   <span class="y">-kick [@user]</span>
 </div>  [ Kick A Member (User)] + Admin Only
