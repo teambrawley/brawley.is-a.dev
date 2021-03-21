@@ -69,7 +69,7 @@ document.getElementById("commands").innerHTML = `
 </div>
 
 <div class="panel-body" style="color:black">
-<div class="x">-stats
+<div class="x">-s.tats
   <span class="y">-s.stats</span>
 </div> [ Get Current Server Info ]
 </div>
