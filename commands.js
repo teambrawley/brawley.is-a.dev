@@ -80,6 +80,11 @@ document.getElementById("commands").innerHTML = `
 </div>  [ Kick A Member (User)] + Admin Only
 </div>
 
+<div class="panel-body" style="color:black">
+<div class="x">-ban
+  <span class="y">-ban [@user]</span>
+</div>  [ Ban A Member (User)] + Admin Only
+</div>
 
 <div class="panel-body" style="color:black">
 <div class="x">-g.u
