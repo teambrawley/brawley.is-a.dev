@@ -119,19 +119,15 @@ function myFunction2() {
 </h3>
  
  <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
-<script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
-return response.json()
+<script>
 
-}).then(function (obj) {
 
-console.log(obj.username)
 
-document.getElementById("guild").innerHTML = "<i class='bx bx-stats'></i> Guild : " + obj.server_count;
-document.getElementById("username").innerHTML = obj.username+"#"+obj.discriminator;
-document.getElementById("avatar").innerHTML = `<img src="https://cdn.discordapp.com/avatars/`+obj.id+"/"+obj.avatar+`.png"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
-document.getElementById("favicon").innerHTML = `<link rel="icon" href="`+obj.avatar+`" type="image/gif" sizes="16x16">`;
+document.getElementById("guild").innerHTML = "<i class='bx bx-stats'></i> Guild : " + 88;
+document.getElementById("username").innerHTML = 'Jet Brawley#4255';
+document.getElementById("avatar").innerHTML = `<img src="https://cdn.discordapp.com/avatars/792311725181239307/1ac7ba6328e78bb6ad7adce8196c01e6.png"alt="profile img" class="rounded-circle" width="80px" height="80px" >`;
+document.getElementById("favicon").innerHTML = `<link rel="icon" href="https://cdn.discordapp.com/avatars/792311725181239307/1ac7ba6328e78bb6ad7adce8196c01e6.png" type="image/gif" sizes="16x16">`;
 
-}).catch(err =>console.log(err))
 
 
 </script>
