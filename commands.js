@@ -18,6 +18,10 @@ document.getElementById("commands").innerHTML = `
         <div class="panel-body" style="color:black">-help ⚙ [ Main Help Command ]</div>
        <div class="panel-body" style="color:black">-help utility  🛠  [ Utlity Help Command ]
 </div>
+ <div class="panel-body" style="color:black">-help moderation  🛠  [ Moderation Help Command ]
+  <div class="panel-body" style="color:black">-help tracker 🚀 [ Tracker Help Command ]
+</div>
+</div>
  <div class="panel-body" style="color:black">-help music  🎶  [ Music Help Command ]
 </div>
 <div class="panel-body" style="color:black">-help leveling  🔰  [ Leveling Help Command ]
