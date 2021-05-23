@@ -379,10 +379,10 @@ document.getElementById("commands").innerHTML = `
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" style="text-decoration:none" href="#collapse9" >🛠 Moderation Commands 🛠</a>
+          <a data-toggle="collapse" style="text-decoration:none" href="#collapse11" >🛠 Moderation Commands 🛠</a>
         </h4>
       </div>
-      <div id="collapse9" class="panel-collapse collapse">
+      <div id="collapse11" class="panel-collapse collapse">
       <div class="panel-body" style="color:black">-help moderation [ Help Command ]</div>
        <div class="panel-body" style="color:black">-kick {user <mention/userid>} [ Kick A Member (Admin) ]
 </div>
