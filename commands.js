@@ -401,6 +401,30 @@ document.getElementById("commands").innerHTML = `
   </div>
 </div>
 
+<! -- tracker commands -- >
+<div class="container">
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" style="text-decoration:none" href="#collapse12" >🚀 Tracker Commands 🚀</a>
+        </h4>
+      </div>
+      <div id="collapse12" class="panel-collapse collapse">
+      <div class="panel-body" style="color:black">-help tracker [ Help Command ]</div>
+       <div class="panel-body" style="color:black">-track {webhook_url} [ Enable Server Vote Tracking (Admin) ]
+</div>
+ <div class="panel-body" style="color:black">-untrack [ Disable Server Vote Tracking (Admin) ]
+</div>
+ <div class="panel-body" style="color:black">-track.status [ View Tracking Status ]
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <!-- leveling commands -->
