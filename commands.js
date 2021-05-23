@@ -22,7 +22,6 @@ document.getElementById("commands").innerHTML = `
 </div> 
 <div class="panel-body" style="color:black">-help moderation  🛠  [ Moderation Help Command ]</div>
 
-</div>
  <div class="panel-body" style="color:black">-help music  🎶  [ Music Help Command ]
 </div>
 <div class="panel-body" style="color:black">-help leveling  🔰  [ Leveling Help Command ]
@@ -319,34 +318,7 @@ document.getElementById("commands").innerHTML = `
   </div>
 </div>
 
-<! -- moderation commands -- >
-<div class="container">
 
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" style="text-decoration:none" href="#collapse5" >🛠 Moderation Commands 🛠</a>
-        </h4>
-      </div>
-      <div id="collapse5" class="panel-collapse collapse">
-      <div class="panel-body" style="color:black">-help moderation [ Help Command ]</div>
-       <div class="panel-body" style="color:black">-kick {user <mention/userid>} [ Kick A Member (Admin) ]
-</div>
- <div class="panel-body" style="color:black">-ban {user <mention/userid>>} [ Ban A User (Admin) ]
-</div>
- <div class="panel-body" style="color:black">-unban {user <userid>} [ Unban A User (Admin) ]
-</div>
- <div class="panel-body" style="color:black">-lockdown [ Lockdown Current Channel <@everyone> (Manage_Channels) ]
-</div>
- <div class="panel-body" style="color:black">-unlock [ Unlock Current Lockdowned Channel <@everyone> (Manage_Channels) ]
-</div>
- <div class="panel-body" style="color:black">-clear {number <1-100>} [ Clear Messages In Current Channel (Manage_Messages) ]
-</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- fun commands -->
 <div class="container">
@@ -427,7 +399,34 @@ document.getElementById("commands").innerHTML = `
   </div>
 </div>
 
+<! -- moderation commands -- >
+<div class="container">
 
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" style="text-decoration:none" href="#collapse8" >🛠 Moderation Commands 🛠</a>
+        </h4>
+      </div>
+      <div id="collapse8" class="panel-collapse collapse">
+      <div class="panel-body" style="color:black">-help moderation [ Help Command ]</div>
+       <div class="panel-body" style="color:black">-kick {user <mention/userid>} [ Kick A Member (Admin) ]
+</div>
+ <div class="panel-body" style="color:black">-ban {user <mention/userid>>} [ Ban A User (Admin) ]
+</div>
+ <div class="panel-body" style="color:black">-unban {user <userid>} [ Unban A User (Admin) ]
+</div>
+ <div class="panel-body" style="color:black">-lockdown [ Lockdown Current Channel <@everyone> (Manage_Channels) ]
+</div>
+ <div class="panel-body" style="color:black">-unlock [ Unlock Current Lockdowned Channel <@everyone> (Manage_Channels) ]
+</div>
+ <div class="panel-body" style="color:black">-clear {number <1-100>} [ Clear Messages In Current Channel (Manage_Messages) ]
+</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 `;
