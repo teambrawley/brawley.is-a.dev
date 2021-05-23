@@ -545,11 +545,9 @@
   opacity: 1;
 }
 </style>
-<script>fetch('https://api.botlist.space/v1/bots/792311725181239307').then(function (response) {
-return response.json()
-}).then(function (obj) {
-document.getElementById("favicon").innerHTML = `<link rel="icon" href="https://cdn.discordapp.com/avatars/`+obj.id+'/'+obj.avatar+`" type="image/gif" sizes="16x16">`;
-}).catch(err =>console.log(err))
+<script>
+document.getElementById("favicon").innerHTML = `<link rel="icon" href="https://cdn.discordapp.com/avatars/792311725181239307/1ac7ba6328e78bb6ad7adce8196c01e6.jpg" type="image/gif" sizes="16x16">`;
+
 </script>
 <script src="/commands.js"></script>
 
