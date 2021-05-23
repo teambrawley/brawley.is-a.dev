@@ -18,9 +18,10 @@ document.getElementById("commands").innerHTML = `
         <div class="panel-body" style="color:black">-help ⚙ [ Main Help Command ]</div>
        <div class="panel-body" style="color:black">-help utility  🛠  [ Utlity Help Command ]
 </div>
- <div class="panel-body" style="color:black">-help moderation  🛠  [ Moderation Help Command ]
   <div class="panel-body" style="color:black">-help tracker 🚀 [ Tracker Help Command ]
-</div>
+</div> 
+<div class="panel-body" style="color:black">-help moderation  🛠  [ Moderation Help Command ]</div>
+
 </div>
  <div class="panel-body" style="color:black">-help music  🎶  [ Music Help Command ]
 </div>
@@ -84,17 +85,6 @@ document.getElementById("commands").innerHTML = `
 </div> [ Server Widget Overview ]
 </div>
 
-<div class="panel-body" style="color:black">
-<div class="x">-kick
-  <span class="y">-kick [@user]</span>
-</div>  [ Kick A Member (User)] + Admin Only
-</div>
-
-<div class="panel-body" style="color:black">
-<div class="x">-ban
-  <span class="y">-ban [@user]</span>
-</div>  [ Ban A Member (User)] + Admin Only
-</div>
 
 <div class="panel-body" style="color:black">
 <div class="x">-g.u
@@ -118,6 +108,41 @@ document.getElementById("commands").innerHTML = `
 <div class="x">-urban
   <span class="y">-urban [Query]</span>
 </div> [ Search For Slang Words On The Urban Dictionary ] 
+</div>
+
+<div class="panel-body" style="color:black">
+<div class="x">-template
+  <span class="y">-template [code]</span>
+</div>  [ Overview Of A Server Template ]
+</div>
+
+<div class="panel-body" style="color:black">
+<div class="x">-calc 
+  <span class="y">-calc <MATH></span>
+</div>  [ Calculate Something ]
+</div>
+// ============
+<div class="panel-body" style="color:black">
+<div class="x">-wiki 
+  <span class="y">-wiki <Article></span>
+</div>  [ Search An Article On Wikipedia ]
+</div>
+
+<div class="panel-body" style="color:black">
+<div class="x">-m.invites 
+</div>  [ Show Top 10 Inviters In A Server ]
+</div>
+
+<div class="panel-body" style="color:black">
+<div class="x">-npm  
+  <span class="y">-npm  <package_name></span>
+</div>  [ NPM Package Overview ]
+</div>
+
+<div class="panel-body" style="color:black">
+<div class="x">-repo  
+  <span class="y">-repo  <username/repo_name></span>
+</div>  [ Github Repo Overview ]
 </div>
       </div>
     </div>
